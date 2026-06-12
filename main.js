@@ -96,3 +96,5 @@ timeZone:"Asia/Jakarta"
 
 updateClocks();
 setInterval(updateClocks,1000);
+
+alert("jam jalan");
