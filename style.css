@@ -817,42 +817,6 @@ position:relative;
 overflow:visible;
 }
 
-.spark{
-position:absolute;
-
-width:12px;
-height:12px;
-
-background:#ffd95c;
-border-radius:50%;
-
-top:35%;
-left:50%;
-
-box-shadow:
-0 0 20px #ffd95c,
-0 0 40px #ffd95c,
-0 0 80px #ffb347;
-
-animation:sparkOrbit 5s linear infinite;
-
-pointer-events:none;
-}
-
-@keyframes sparkOrbit{
-
-0%{
-transform:
-rotate(0deg)
-translateX(120px);
-}
-
-100%{
-transform:
-rotate(360deg)
-translateX(120px);
-}
-
 .particles{
 position:absolute;
 inset:0;
