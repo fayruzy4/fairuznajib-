@@ -167,7 +167,7 @@ align-items:center;
     right:0;
     bottom:0;
 
-    height:180px;
+    height:300px;
 
     background:linear-gradient(
         to bottom,
@@ -826,7 +826,7 @@ height:12px;
 background:#ffd95c;
 border-radius:50%;
 
-top:50%;
+top:35%;
 left:50%;
 
 box-shadow:
@@ -844,13 +844,13 @@ pointer-events:none;
 0%{
 transform:
 rotate(0deg)
-translateX(190px);
+translateX(120px);
 }
 
 100%{
 transform:
 rotate(360deg)
-translateX(190px);
+translateX(120px);
 }
 
 .particles{
