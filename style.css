@@ -613,3 +613,7 @@ opacity:.8;
 .org-card span{
 color:#ffd95c;
 }
+
+html{
+scroll-behavior:smooth;
+}
