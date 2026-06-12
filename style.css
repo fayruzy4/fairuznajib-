@@ -6,18 +6,10 @@ font-family:'Poppins',sans-serif;
 }
 
 body{
-    background: linear-gradient(
-        -45deg,
-        #0a0f2c,
-        #162d73,
-        #1b3c9d,
-        #0f1f52
-    );
-
-    background-size: 400% 400%;
-
-    animation: gradientFlow 15s ease infinite;
+background:#0a0f2c;
 }
+
+    
 body::before{
 content:'';
 position:fixed;
@@ -1137,4 +1129,39 @@ cursor:pointer;
         background-position:0% 50%;
     }
 
+}
+body::before{
+content:'';
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+
+background:linear-gradient(
+-45deg,
+rgba(75,107,255,.15),
+rgba(0,255,255,.08),
+rgba(120,0,255,.12),
+rgba(75,107,255,.15)
+);
+
+background-size:400% 400%;
+animation:gradientFlow 20s ease infinite;
+
+z-index:-1;
+}
+
+@keyframes gradientFlow{
+0%{
+background-position:0% 50%;
+}
+
+50%{
+background-position:100% 50%;
+}
+
+100%{
+background-position:0% 50%;
+}
 }
