@@ -730,7 +730,7 @@ transparent 12px 24px
 
 position:relative;
 
-overflow:hidden;
+overflow:visible;
 
 animation:moveArrow 1s linear infinite;
 
@@ -748,9 +748,8 @@ top:50%;
 
 left:-20px;
 
-width:20px;
-
-height:20px;
+width:30px;
+height:30px;
 
 background:#ffd95c;
 
@@ -786,7 +785,7 @@ left:-20px;
 }
 
 100%{
-left:120px;
+left:140px;
 }
 
 }
