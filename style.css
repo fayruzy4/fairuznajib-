@@ -18,7 +18,6 @@ body{
 
     animation: gradientFlow 15s ease infinite;
 }
-
 body::before{
 content:'';
 position:fixed;
