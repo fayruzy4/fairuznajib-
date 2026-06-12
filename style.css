@@ -1210,8 +1210,8 @@ position:absolute;
 top:0;
 left:0;
 
-width:3px;
-height:3px;
+width:2px;
+height:2px;
 
 background:white;
 border-radius:50%;
@@ -1227,12 +1227,43 @@ box-shadow:
 750px 220px white,
 850px 100px white,
 950px 180px white,
-120px 350px white,
-320px 450px white,
-620px 380px white,
-820px 500px white;
 
-animation:twinkle 3s infinite alternate;
+100px 350px white,
+220px 420px white,
+380px 300px white,
+520px 480px white,
+700px 390px white,
+850px 520px white,
+1020px 430px white,
+
+80px 650px white,
+250px 720px white,
+430px 620px white,
+610px 760px white,
+800px 680px white,
+980px 740px white,
+
+120px 980px white,
+320px 890px white,
+500px 1020px white,
+720px 930px white,
+920px 1080px white,
+
+180px 1250px white,
+380px 1380px white,
+620px 1180px white,
+840px 1320px white,
+1050px 1450px white,
+
+90px 1600px white,
+300px 1720px white,
+550px 1580px white,
+760px 1800px white,
+980px 1680px white;
+
+animation:twinkle 1.2s infinite alternate;
+}
+animation:twinkle 1s infinite alternate;
 }
 
 @keyframes twinkle{
