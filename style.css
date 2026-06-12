@@ -742,29 +742,31 @@ content:"";
 
 position:absolute;
 
+z-index:10;
+
 top:50%;
 
 left:-20px;
 
-width:12px;
+width:20px;
 
-height:12px;
+height:20px;
 
-background:#8b5cf6;
+background:#ffd95c;
 
 border-radius:50%;
 
 transform:translateY(-50%);
 
 box-shadow:
-0 0 10px #8b5cf6,
-0 0 20px #8b5cf6,
-0 0 40px #8b5cf6;
+0 0 20px #ffd95c,
+0 0 40px #ffd95c,
+0 0 80px #ffd95c,
+0 0 120px #ffd95c;
 
 animation:moveDot 2.5s linear infinite;
 
 }
-
 @keyframes moveArrow{
 
 from{
