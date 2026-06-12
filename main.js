@@ -96,3 +96,44 @@ timeZone:"Asia/Jakarta"
 
 updateClocks();
 setInterval(updateClocks,1000);
+
+const welcomeText = document.getElementById("welcomeText");
+const nameText = document.getElementById("nameText");
+const descText = document.getElementById("descText");
+
+const welcomeString = "Assalamu'alaikum 👋";
+const nameString = "M. Fairuz Najib Athoilah";
+const descString = "Santri • Arabic Learner • Creator | Future International Student";
+
+welcomeText.textContent = "";
+nameText.textContent = "";
+descText.textContent = "";
+
+function typeText(element, text, speed, callback){
+let i = 0;
+
+const typing = setInterval(() => {
+
+element.textContent += text.charAt(i);
+
+i++;
+
+if(i >= text.length){
+clearInterval(typing);
+
+if(callback) callback();
+}
+
+}, speed);
+
+}
+
+typeText(welcomeText, welcomeString, 50, () => {
+
+typeText(nameText, nameString, 70, () => {
+
+typeText(descText, descString, 30);
+
+});
+
+});
