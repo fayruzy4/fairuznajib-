@@ -1118,3 +1118,38 @@ font-size:24px;
 z-index:9999;
 cursor:pointer;
 }
+.logo,
+.welcome,
+.hero-left h1,
+.hero-left h2,
+.status,
+.desc,
+.section-title,
+.section-subtitle,
+.journey-card,
+.journey-card h3,
+.journey-card span,
+.roadmap-step,
+.roadmap-step h3,
+.roadmap-step p,
+.stat-label,
+.org-card,
+.org-card h3,
+.org-card p,
+.org-card span,
+.contact-card,
+.contact-card h3,
+.contact-card p,
+.menu a,
+.cv-btn,
+a,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span{
+color:white !important;
+}
