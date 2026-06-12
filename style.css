@@ -120,8 +120,8 @@ color:white;
 
 .status{
 display:inline-block;
-
-padding:12px 25px;
+    padding:8px 18px;
+font-size:16px;
 
 border-radius:50px;
 
