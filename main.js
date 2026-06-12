@@ -23,8 +23,28 @@ hiddenElements.forEach((el) => {
 observer.observe(el);
 
 });
+
 function showCertificate(imageName){
 
-document.getElementById("certificate-image").src = imageName;
+const preview =
+document.getElementById("certificate-preview");
+
+const img =
+document.getElementById("certificate-image");
+
+if(
+preview.style.display === "block" &&
+img.src.includes(imageName)
+){
+
+preview.style.display = "none";
+
+}else{
+
+img.src = imageName;
+
+preview.style.display = "block";
+
+}
 
 }
