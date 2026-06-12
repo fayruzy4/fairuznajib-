@@ -894,3 +894,24 @@ opacity:0;
 
 }
 }
+@media (max-width: 768px){
+
+    .hero{
+        grid-template-columns:1fr;
+        text-align:center;
+    }
+
+    .hero-left{
+        max-width:100%;
+    }
+
+    .hero-right{
+        width:100%;
+        margin-top:20px;
+    }
+
+    .hero-right img{
+        max-width:300px;
+    }
+
+}
