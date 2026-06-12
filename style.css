@@ -571,6 +571,12 @@ font-size:24px;
 text-align:center;
 
 transition:.4s;
+text-decoration:none;
+color:white;
+
+display:flex;
+align-items:center;
+justify-content:center;
 }
 
 .certificate-card:hover{
@@ -580,8 +586,15 @@ translateY(-8px);
 
 box-shadow:
 0 0 30px rgba(120,120,255,.4);
-
 }
+.certificate-card:visited{
+color:white;
+}
+
+.certificate-card:hover{
+color:white;
+}
+
 
 .organizations{
 padding:120px 6%;
