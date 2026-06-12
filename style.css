@@ -1075,8 +1075,10 @@ button,
 .certificate-card,
 .org-card,
 .contact-card,
-.cv-btn{
-
+.cv-btn,
+.journey-card,
+.roadmap-step,
+.stat-card{
 transition:transform .15s ease;
 
 }
@@ -1086,7 +1088,10 @@ button:active,
 .certificate-card:active,
 .org-card:active,
 .contact-card:active,
-.cv-btn:active{
+.cv-btn:active,
+.journey-card:active,
+.roadmap-step:active,
+.stat-card:active{
 
 transform:scale(.96);
 
