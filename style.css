@@ -1219,6 +1219,7 @@ left:0;
 
 width:2px;
 height:2px;
+    opacity:.8;
 
 background:white;
 border-radius:50%;
@@ -1266,11 +1267,48 @@ box-shadow:
 300px 1720px white,
 550px 1580px white,
 760px 1800px white,
-980px 1680px white;
+    1100px 200px white,
+1150px 450px white,
+1200px 700px white,
+1250px 950px white,
+1300px 1200px white,
+1350px 1450px white,
+1400px 1700px white,
+300px 1900px white,
+600px 2000px white,
+900px 2100px white;
 
 animation:twinkle 1.2s infinite alternate;
 }
-animation:twinkle 1s infinite alternate;
+.stars::after{
+content:'';
+position:fixed;
+top:0;
+left:0;
+
+width:1px;
+height:1px;
+
+background:transparent;
+
+box-shadow:
+50px 150px white,
+180px 250px white,
+320px 100px white,
+450px 350px white,
+600px 220px white,
+750px 480px white,
+900px 300px white,
+1050px 550px white,
+150px 800px white,
+400px 950px white,
+700px 1100px white,
+950px 1300px white,
+250px 1600px white,
+550px 1800px white,
+850px 2000px white;
+
+animation:twinkle .8s infinite alternate;
 }
 
 @keyframes twinkle{
