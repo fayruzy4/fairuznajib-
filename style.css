@@ -1277,3 +1277,28 @@ opacity:1;
 }
 
 }
+.roadmap-step{
+position:relative;
+overflow:hidden;
+}
+
+@keyframes pulseCard{
+
+0%,100%{
+transform:scale(1);
+box-shadow:0 0 25px rgba(120,120,255,.2);
+}
+
+50%{
+transform:scale(1.08);
+box-shadow:
+0 0 20px #ffd95c,
+0 0 40px #ffd95c,
+0 0 80px rgba(255,217,92,.8);
+}
+
+}
+
+.active-step{
+animation:pulseCard 2s infinite;
+}
