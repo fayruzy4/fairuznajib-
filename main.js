@@ -71,6 +71,7 @@ playing = false;
 
 });
 function updateClocks(){
+  alert("jam jalan");
 
 document.getElementById("saudi-time").textContent =
 new Date().toLocaleTimeString("id-ID",{
@@ -96,5 +97,3 @@ timeZone:"Asia/Jakarta"
 
 updateClocks();
 setInterval(updateClocks,1000);
-
-alert("jam jalan");
