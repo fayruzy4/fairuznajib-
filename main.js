@@ -70,3 +70,29 @@ playing = false;
 }
 
 });
+function updateClocks(){
+
+document.getElementById("saudi-time").textContent =
+new Date().toLocaleTimeString("id-ID",{
+timeZone:"Asia/Riyadh"
+});
+
+document.getElementById("egypt-time").textContent =
+new Date().toLocaleTimeString("id-ID",{
+timeZone:"Africa/Cairo"
+});
+
+document.getElementById("london-time").textContent =
+new Date().toLocaleTimeString("id-ID",{
+timeZone:"Europe/London"
+});
+
+document.getElementById("indo-time").textContent =
+new Date().toLocaleTimeString("id-ID",{
+timeZone:"Asia/Jakarta"
+});
+
+}
+
+updateClocks();
+setInterval(updateClocks,1000);
