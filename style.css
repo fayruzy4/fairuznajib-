@@ -1057,3 +1057,15 @@ grid-column:auto;
 }
 
 }
+#certificate-preview{
+margin-top:40px;
+text-align:center;
+}
+
+#certificate-image{
+max-width:100%;
+width:800px;
+border-radius:20px;
+border:1px solid rgba(255,255,255,.15);
+box-shadow:0 0 30px rgba(75,107,255,.3);
+}
