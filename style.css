@@ -653,3 +653,75 @@ opacity:1;
 transform:translateY(0);
 
 }
+
+.universities{
+padding:120px 8%;
+text-align:center;
+}
+
+.roadmap{
+display:flex;
+justify-content:center;
+align-items:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+.roadmap-step{
+
+width:250px;
+
+padding:30px;
+
+border-radius:25px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.12);
+
+box-shadow:0 0 25px rgba(120,120,255,.2);
+
+transition:.4s;
+}
+
+.roadmap-step:hover{
+transform:translateY(-10px);
+}
+
+.roadmap-step h3{
+margin:15px 0;
+}
+
+.roadmap-step p{
+color:#ffd95c;
+}
+
+.roadmap-arrow{
+
+width:120px;
+
+height:4px;
+
+background:
+repeating-linear-gradient(
+90deg,
+#ffffff 0 12px,
+transparent 12px 24px
+);
+
+animation:moveArrow 1s linear infinite;
+}
+
+@keyframes moveArrow{
+
+from{
+background-position:0 0;
+}
+
+to{
+background-position:24px 0;
+}
+
+}
