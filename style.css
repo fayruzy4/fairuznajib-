@@ -1069,3 +1069,25 @@ border-radius:20px;
 border:1px solid rgba(255,255,255,.15);
 box-shadow:0 0 30px rgba(75,107,255,.3);
 }
+
+a,
+button,
+.certificate-card,
+.org-card,
+.contact-card,
+.cv-btn{
+
+transition:transform .15s ease;
+
+}
+
+a:active,
+button:active,
+.certificate-card:active,
+.org-card:active,
+.contact-card:active,
+.cv-btn:active{
+
+transform:scale(.96);
+
+}
