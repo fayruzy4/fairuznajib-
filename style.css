@@ -617,3 +617,20 @@ color:#ffd95c;
 html{
 scroll-behavior:smooth;
 }
+
+.menu a,
+.menu a:visited{
+
+color:white;
+
+text-decoration:none;
+
+transition:.3s;
+
+}
+
+.menu a:hover{
+
+color:#ffd95c;
+
+}
