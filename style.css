@@ -1809,3 +1809,12 @@ transform:translateY(-10px);
 }
 
 }
+#welcome-overlay{
+opacity:1;
+transition:opacity 0.5s ease;
+}
+
+#welcome-overlay.fade-out{
+opacity:0;
+pointer-events:none;
+}
