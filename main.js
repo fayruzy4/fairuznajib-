@@ -293,27 +293,3 @@ playing = true;
 musicMenu.classList.remove("show");
 
 }
-
-const menuToggle = document.querySelector(".menu-toggle");
-const menu = document.querySelector(".menu");
-
-menuToggle.addEventListener("click", (e) => {
-
-    e.stopPropagation();
-
-    menu.classList.toggle("active");
-
-});
-
-document.addEventListener("click", (e) => {
-
-    if (
-        !menu.contains(e.target) &&
-        !menuToggle.contains(e.target)
-    ) {
-
-        menu.classList.remove("active");
-
-    }
-
-});
