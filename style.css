@@ -1562,7 +1562,7 @@ transform:translateY(-3px);
 
 .stat-finish{
 
-animation: statPop .6s ease;
+animation: statPop 3s ease;
 
 }
 
@@ -1573,10 +1573,12 @@ transform:scale(1);
 }
 
 50%{
-transform:scale(1.2);
+transform:scale(1.25);
+
 text-shadow:
-0 0 15px #ffd700,
-0 0 30px #ffd700;
+0 0 20px #ffd700,
+0 0 40px #ffd700,
+0 0 70px #ffd700;
 }
 
 100%{
