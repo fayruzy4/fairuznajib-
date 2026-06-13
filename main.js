@@ -146,6 +146,7 @@ projectCount.textContent = project + "+";
 if(project >= 5){
 
 clearInterval(projectInterval);
+  projectCount.classList.add("stat-finish");
 
 }
 
