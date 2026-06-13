@@ -152,3 +152,21 @@ clearInterval(projectInterval);
 }
 
 }, 400);
+
+let org = 0;
+
+const orgInterval = setInterval(() => {
+
+org++;
+
+orgCount.textContent = org + "+";
+
+if(org >= 2){
+
+clearInterval(orgInterval);
+
+orgCount.classList.add("stat-finish");
+
+}
+
+}, 1000);
