@@ -50,12 +50,18 @@ preview.style.display = "block";
 }
 const music = document.getElementById("bgMusic");
 const musicBtn = document.getElementById("musicBtn");
+let playing = false;
 
 const musicMenu = document.getElementById("musicMenu");
 
 musicBtn.addEventListener("click", () => {
 
-musicMenu.classList.toggle("show");
+    musicMenu.classList.toggle("show");
+
+    if (!playing) {
+        music.play();
+        playing = true;
+    }
 
 });
 function updateClocks(){
