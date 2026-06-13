@@ -525,6 +525,28 @@ menuToggle.addEventListener('click', () => {
 menu.classList.toggle('active');
 });
 </script>
+  <script>
+
+document.addEventListener('click', (e) => {
+
+const menuToggle =
+document.querySelector('.menu-toggle');
+
+const menu =
+document.querySelector('.menu');
+
+if (
+!menu.contains(e.target) &&
+!menuToggle.contains(e.target)
+) {
+
+menu.classList.remove('active');
+
+}
+
+});
+
+  </script>
   <audio id="bgMusic" loop>
     <source src="Hindia - Cincin Official Lyric Video.mp3" type="audio/mpeg">
   </audio>
