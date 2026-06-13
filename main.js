@@ -120,6 +120,7 @@ certCount.textContent = cert + "+";
 if (cert >= 13) {
 
 clearInterval(certInterval);
+  certCount.classList.add("stat-finish");
 
 }
 
