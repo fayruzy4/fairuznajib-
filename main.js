@@ -204,10 +204,11 @@ year:"numeric"
 });
 
 document.getElementById("hijri-date").textContent =
-new Intl.DateTimeFormat("id-TN-u-ca-islamic",{
+new Intl.DateTimeFormat("ar-SA",{
 day:"numeric",
 month:"long",
-year:"numeric"
+year:"numeric",
+calendar:"islamic"
 }).format(new Date());
 
 }
