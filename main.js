@@ -58,22 +58,7 @@ musicBtn.addEventListener("click", () => {
 
     musicMenu.classList.toggle("show");
 
-    if (playing) {
-
-        music.pause();
-        playing = false;
-        musicBtn.innerHTML = "🎵";
-
-    } else {
-
-        music.play();
-        playing = true;
-        musicBtn.innerHTML = "🔊";
-
-    }
-
 });
-function updateClocks(){
 
 document.getElementById("saudi-time").textContent =
 new Date().toLocaleTimeString("id-ID",{
