@@ -269,3 +269,16 @@ const musicMenu = document.getElementById("musicMenu");
 musicBtn.addEventListener("click", () => {
 musicMenu.classList.toggle("show");
 });
+
+document.addEventListener("click", (e) => {
+
+if (
+!musicMenu.contains(e.target) &&
+!musicBtn.contains(e.target)
+) {
+
+musicMenu.classList.remove("show");
+
+}
+
+});
