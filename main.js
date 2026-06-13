@@ -263,3 +263,9 @@ document.getElementById("birthday-countdown").textContent =
 updateBirthdayCountdown();
 
 setInterval(updateBirthdayCountdown,1000);
+
+const musicMenu = document.getElementById("musicMenu");
+
+musicBtn.addEventListener("click", () => {
+musicMenu.classList.toggle("show");
+});
