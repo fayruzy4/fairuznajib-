@@ -346,4 +346,19 @@ document.getElementById("daily-quote").textContent =
 }
 
 updateDailyQuote();
+const visitorTime =
+document.getElementById("visitor-time");
+
+function updateVisitorTime(){
+
+const now = new Date();
+
+visitorTime.textContent =
+`Di tempat Anda jam ${now.toLocaleTimeString("id-ID")}, silakan masuk untuk melihat kapsul waktu dan fitur interaktif saya!`;
+
+}
+
+updateVisitorTime();
+
+setInterval(updateVisitorTime,1000);
 
