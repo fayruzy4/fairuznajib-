@@ -265,6 +265,19 @@ musicMenu.classList.remove("show");
 }
 
 });
+function toggleMusic(){
+
+if(music.paused){
+
+music.play();
+
+}else{
+
+music.pause();
+
+}
+
+}
 
 function changeMusic(song){
 
