@@ -1559,3 +1559,28 @@ background:rgba(255,255,255,.15);
 transform:translateY(-3px);
 
     }
+
+.stat-finish{
+
+animation: statPop .6s ease;
+
+}
+
+@keyframes statPop{
+
+0%{
+transform:scale(1);
+}
+
+50%{
+transform:scale(1.2);
+text-shadow:
+0 0 15px #ffd700,
+0 0 30px #ffd700;
+}
+
+100%{
+transform:scale(1);
+}
+
+}
