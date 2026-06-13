@@ -252,8 +252,6 @@ updateBirthdayCountdown();
 
 setInterval(updateBirthdayCountdown,1000);
 
-const musicMenu = document.getElementById("musicMenu");
-
 musicBtn.addEventListener("click", () => {
 musicMenu.classList.toggle("show");
 });
@@ -279,7 +277,7 @@ music.play();
 
 musicBtn.innerHTML = "🔊";
 
-playing = true;
+
 
 musicMenu.classList.remove("show");
 
