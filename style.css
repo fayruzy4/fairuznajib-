@@ -1471,3 +1471,24 @@ box-shadow:
 
 }
 }
+.copyright-bar{
+
+width:100%;
+
+padding:12px 20px;
+
+text-align:center;
+
+font-size:13px;
+
+color:rgba(255,255,255,.75);
+
+background:rgba(70,70,255,.15);
+
+border-top:2px solid #8b5cf6;
+
+box-shadow:0 -5px 20px rgba(139,92,246,.3);
+
+margin-top:50px;
+
+}
