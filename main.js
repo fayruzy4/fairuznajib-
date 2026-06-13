@@ -96,9 +96,18 @@ timeZone:"Asia/Jakarta"
 
 updateClocks();
 setInterval(updateClocks,1000);
-window.addEventListener("load", () => {
 
 const certCount = document.getElementById("cert-count");
+
+let certAnimated = false;
+
+const observer = new IntersectionObserver((entries) => {
+
+entries.forEach(entry => {
+
+if(entry.isIntersecting && !certAnimated){
+
+certAnimated = true;
 
 let cert = 0;
 
@@ -114,6 +123,12 @@ clearInterval(certInterval);
 
 }
 
-}, 100);
+}, 150);
+
+}
 
 });
+
+});
+
+observer.observe(certCount);
