@@ -149,4 +149,4 @@ clearInterval(projectInterval);
 
 }
 
-}, 200);
+}, 800);
