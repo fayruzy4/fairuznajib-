@@ -1492,3 +1492,38 @@ box-shadow:0 -5px 20px rgba(139,92,246,.3);
 margin-top:50px;
 
 }
+
+.hero-buttons{
+
+display:flex;
+
+gap:15px;
+
+margin-top:25px;
+
+}
+
+.primary-btn{
+
+display:inline-block;
+
+padding:12px 28px;
+
+border-radius:50px;
+
+text-decoration:none;
+
+font-weight:600;
+
+color:white;
+
+background:linear-gradient(
+90deg,
+#4b6bff,
+#8b5cf6
+);
+
+box-shadow:
+0 0 20px rgba(75,107,255,.4);
+
+}
