@@ -192,3 +192,24 @@ clearInterval(certInterval);
 });
 
 certObserver.observe(statsSection);
+
+function updateDates(){
+
+document.getElementById("gregorian-date").textContent =
+new Date().toLocaleDateString("id-ID",{
+weekday:"long",
+day:"numeric",
+month:"long",
+year:"numeric"
+});
+
+document.getElementById("hijri-date").textContent =
+new Intl.DateTimeFormat("id-TN-u-ca-islamic",{
+day:"numeric",
+month:"long",
+year:"numeric"
+}).format(new Date());
+
+}
+
+updateDates();
