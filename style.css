@@ -1683,3 +1683,29 @@ transition: .2s;
 .song-item:hover{
 background: rgba(255,255,255,.1);
 }
+
+.quote-section{
+padding:80px 10%;
+text-align:center;
+}
+
+.quote-card{
+max-width:700px;
+margin:auto;
+padding:30px;
+border-radius:20px;
+backdrop-filter:blur(10px);
+background:rgba(255,255,255,0.05);
+}
+
+#daily-quote{
+font-size:1.2rem;
+font-style:italic;
+line-height:1.8;
+margin-bottom:15px;
+}
+
+#quote-author{
+opacity:0.8;
+font-weight:600;
+}
