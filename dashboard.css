@@ -223,3 +223,45 @@ opacity:.8;
 
 font-size:24px;
 }
+
+#weather-icon{
+
+font-size:70px;
+
+margin-bottom:15px;
+
+animation:weatherFloat 3s ease-in-out infinite;
+}
+
+#weather-temp{
+
+font-size:48px;
+
+margin-bottom:10px;
+}
+
+#weather-desc{
+
+font-size:18px;
+
+opacity:.9;
+
+margin-bottom:10px;
+}
+
+#weather-location{
+
+opacity:.7;
+}
+
+@keyframes weatherFloat{
+
+0%,100%{
+transform:translateY(0);
+}
+
+50%{
+transform:translateY(-10px);
+}
+
+}
