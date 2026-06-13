@@ -293,3 +293,69 @@ playing = true;
 musicMenu.classList.remove("show");
 
 }
+
+// =========================
+// QUOTE OF THE DAY
+// =========================
+
+const quotes = [
+
+{
+text: "Barang siapa menempuh jalan untuk mencari ilmu, Allah akan mudahkan baginya jalan menuju surga.",
+author: "HR. Muslim"
+},
+
+{
+text: "Kesuksesan adalah hasil dari konsistensi kecil yang dilakukan setiap hari.",
+author: "Unknown"
+},
+
+{
+text: "Jangan menyerah pada mimpi hanya karena waktu yang dibutuhkan untuk mencapainya.",
+author: "Earl Nightingale"
+},
+
+{
+text: "Belajar hari ini untuk memimpin esok hari.",
+author: "Unknown"
+},
+
+{
+text: "The future depends on what you do today.",
+author: "Mahatma Gandhi"
+},
+
+{
+text: "Knowledge without action is wasted.",
+author: "Islamic Wisdom"
+},
+
+{
+text: "Orang yang hebat bukan yang tidak pernah gagal, tetapi yang terus bangkit setelah gagal.",
+author: "Unknown"
+}
+
+];
+
+function updateDailyQuote() {
+
+const today = new Date();
+
+const dayNumber =
+Math.floor(
+today.getTime() /
+(1000 * 60 * 60 * 24)
+);
+
+const quote =
+quotes[dayNumber % quotes.length];
+
+document.getElementById("daily-quote").textContent =
+`"${quote.text}"`;
+
+document.getElementById("quote-author").textContent =
+`— ${quote.author}`;
+
+}
+
+updateDailyQuote();
