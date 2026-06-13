@@ -102,6 +102,7 @@ const projectCount = document.getElementById("project-count");
 const orgCount = document.getElementById("org-count");
 const langCount = document.getElementById("lang-count");
 
+const statsSection = document.querySelector(".stats");
 let certAnimated = false;
 
 const certObserver = new IntersectionObserver((entries) => {
@@ -190,5 +191,4 @@ clearInterval(certInterval);
 
 });
 
-certObserver.observe(certCount);
-
+certObserver.observe(statsSection);
