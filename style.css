@@ -130,6 +130,7 @@ background:rgba(0,255,120,.12);
 border:1px solid rgba(0,255,120,.4);
 
 margin-bottom:25px;
+    animation:statusGlow 6s ease-in-out infinite;
 }
 
 .desc{
