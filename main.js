@@ -134,3 +134,19 @@ clearInterval(certInterval);
 });
 
 certObserver.observe(certCount);
+
+let project = 0;
+
+const projectInterval = setInterval(() => {
+
+project++;
+
+projectCount.textContent = project + "+";
+
+if(project >= 5){
+
+clearInterval(projectInterval);
+
+}
+
+}, 200);
