@@ -1705,8 +1705,7 @@ flex-direction:column;
 gap:20px;
 animation:scrollPhotos 20s linear infinite;
 }
-
-..carousel-track img{
+.carousel-track img{
 width:100%;
 height:250px;
 object-fit:cover;
