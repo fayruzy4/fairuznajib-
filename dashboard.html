@@ -204,6 +204,35 @@ Memuat data...
 </div>
 
 </section>
+  <script>
+
+const menuToggle =
+document.querySelector(".menu-toggle");
+
+const dashboardMenu =
+document.querySelector(".dashboard-menu");
+
+menuToggle.addEventListener("click", () => {
+
+dashboardMenu.classList.toggle("active");
+
+});
+
+document.addEventListener("click",(e)=>{
+
+if(
+!dashboardMenu.contains(e.target)
+&&
+!menuToggle.contains(e.target)
+){
+
+dashboardMenu.classList.remove("active");
+
+}
+
+});
+
+  </script>
 </body>
 
 </html>
